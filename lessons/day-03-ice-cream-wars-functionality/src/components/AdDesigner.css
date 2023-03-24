@@ -1,0 +1,35 @@
+.AdDesigner {
+  padding: 20px;
+}
+
+.AdDesigner h2 {
+  font-family: "Caveat", cursive;
+}
+
+/* when the dark class is applied, select it and add background-color green */
+.AdDesigner .dark {
+  background-color: black;
+  color: white;
+}
+
+.AdDesigner .ad {
+  border: 2px solid black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AdDesigner .ad .flavor {
+  font-family: "Caveat", cursive;
+  font-size: 44px;
+}
+
+.AdDesigner button {
+  background-color: #0e3c7e;
+  border: none;
+  padding: 5px;
+  color: white;
+  border-radius: 2px;
+  margin: 5px;
+}
