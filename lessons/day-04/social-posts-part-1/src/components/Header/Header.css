@@ -1,0 +1,10 @@
+.header {
+    background-color: black;
+    /* this color is the color of our text within the component */
+    color: white;
+    height: 100px;
+    /* switches the display to flex, and aligns items in the center */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
