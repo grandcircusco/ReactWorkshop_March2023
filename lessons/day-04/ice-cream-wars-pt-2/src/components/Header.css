@@ -1,0 +1,17 @@
+.Header {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgb(190, 190, 190);
+}
+
+.Header h1 {
+  font-family: "Caveat", cursive;
+  color: #0e3c7e;
+}
+
+.Header p {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
