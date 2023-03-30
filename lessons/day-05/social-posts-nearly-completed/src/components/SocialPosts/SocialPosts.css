@@ -1,0 +1,32 @@
+.social-posts {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    flex-direction: column;
+    background-color: var(--page-bg-color);
+    min-height: 90vh;
+}
+
+.new-thought {
+    width: 50%;
+    margin-top: 10px;
+    height: 50px;
+    color: white;
+    background-color: var(--button-color);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.posts-list {
+    width: 50%;
+    background-color: white;
+    margin-top: 20px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 40px 0 40px 0;
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&family=Homemade+Apple&display=swap');
+
+/* select all items in our html */
+/* perform style ressetting */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+}
+
+/* css variables */
+:root {
+  --page-bg-color: #f3f1f7;
+  --button-color: #03a9f4;
+  --form-background: #79c5e8;
+}

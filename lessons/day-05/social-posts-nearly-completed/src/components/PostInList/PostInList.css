@@ -1,0 +1,16 @@
+.post-card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    padding: 10px;
+    width: 80%;
+    border-bottom: 1px dotted lightgray;
+    position: relative;
+}
+
+.post-card .delete-button {
+    position: absolute;
+    right: 10px;
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import SocialPosts from './components/SocialPosts/SocialPosts';
 import Header from './components/Header/Header';
+import SocialPosts from './components/SocialPosts/SocialPosts';
 
 function App() {
   return (

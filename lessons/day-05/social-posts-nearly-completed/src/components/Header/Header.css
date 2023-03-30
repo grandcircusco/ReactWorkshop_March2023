@@ -1,8 +1,10 @@
 .header {
-    background-color: black;
+    background-color: var(--page-bg-color);
+    color: var(--button-color);
+    font-size: 48px;
+    font-family: 'Homemade Apple', cursive;
     /* this color is the color of our text within the component */
-    color: white;
-    height: 100px;
+    height: 10vh;
     /* switches the display to flex, and aligns items in the center */
     display: flex;
     align-items: center;
