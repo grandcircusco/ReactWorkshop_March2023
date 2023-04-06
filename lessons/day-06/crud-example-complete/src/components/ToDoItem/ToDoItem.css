@@ -1,0 +1,19 @@
+.to-do-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 0 10px 0;
+
+}
+
+.to-do-item input {
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.delete-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
