@@ -1,0 +1,18 @@
+/* reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* global variables */
+:root {
+  --background-color: black;
+  --result-background: #16191d;
+  --border-color: #2f3336;
+  --button-hover-background: #1a7567;
+  --button-background: #145a4f;
+  --green-text: #2eb29f;
+  --button-text: #fff;
+}
