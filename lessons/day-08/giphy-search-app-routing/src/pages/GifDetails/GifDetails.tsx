@@ -9,9 +9,10 @@ export default function GifDetails() {
     // custom hook to get search params
     const [searchParams] = useSearchParams();
     const [gifDetails, setGifDetails] = useState<GiphySearchByIdResponse | undefined | null>();
-    const gifID = searchParams.get('gifID')
+    const gifID = searchParams.get('gifID');
     const navigate = useNavigate();
     console.log(window.history.state);
+
     useEffect(() => {
         if (!gifID) {
             // show error if there is no gif id in the query parameters
